@@ -1,132 +1,326 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Personal portfolio website design</title>
+	<!---custom css link--->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
-    <!--==================== UNICONS ====================-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
 
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="">
-
-    <!--==================== CSS ====================-->
-    <link rel="stylesheet" href="assets/css/styles.css">
-
-    <title>Responsive Portfolio Website</title>
 </head>
 
 <body>
-    <!--==================== HEADER ====================-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav_logo">Abhishek</a>
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list grid">
-                    <li class="nav_item">
-                        <a href="#home" class="nav_link">
-                            <i class="uil uil-estate nav_icon"></i>HOME
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#aboutme" class="nav_link">
-                            <i class="uil uil-user nav_icon"></i>ABOUT ME
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#skills" class="nav_link">
-                            <i class="uil uil-copy-alt nav_icon"></i>SKILLS
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#projects" class="nav_link">
-                            <i class="uil uil-briefcase-alt nav_icon"></i>Projects
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#contact" class="nav_link">
-                            <i class="uil uil-envelope-minus nav_icon"></i>CONTACT
-                        </a>
-                    </li>
-                    <li class="nav_item">
-                        <a href="#resume" class="nav_link">
-                            <i class="uil uil-envelope-minus nav_icon"></i>RESUME
-                        </a>
-                    </li>
-                </ul>
-                <i class="uil uil-times nav_close" id="nav-close"></i>
-            </div>
-            <div class="nav_btn">
-                <div class="nav_toggle" id="nav-toggle">
-                    <i class="uil uil-apps"></i>
-                </div>
-            </div>
-        </nav>
-    </header>
 
-    <!--==================== MAIN ====================-->
-    <main class="main">
-        <!--==================== HOME ====================-->
-        <section class="home section" id="home">
+	<!---header--->
+	<header>
+		<a href="#" class="logo"><span style="color: rgb(69, 201, 69);font-size:40px;">ΛϦнɪらнƐҚ</span></a>
+		<div class="bx bx-menu" id="menu-icon"></div>
 
-        </section>
+		<ul class="navbar">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Skill</a></li>
+			<li><a href="#portfolio">Project</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<!-- <li><button class="btnResume">Resume</button></li> -->
+			<li><button class="btnResume"><a href="/img//Abhishek-Singh-Resume (2).pdf"
+						download="Abhishek-Singh-Resume">Resume</a></button> </li>
+		</ul>
+	</header>
 
-        <!--==================== ABOUT ====================-->
-        <section class="about section" id="about">
+	<!---home--->
+	<section class="home" id="home">
+		<div class="home-text">
+			<h4>Hello</h4>
+			<h1 style="font-size: 50px;">I'M Abhishek Singh</h1>
+			<h3>Full Stack Web Developer</h3>
+			<p>Creative thinker to achieve modern business requirements using technical solutions. Ability to develop
+				production-ready code using HTML, CSS, Javascript and React with impressive user experience.</p>
+			<a href="/img//Abhishek-Singh-Resume (2).pdf" download="Abhishek-Singh-Resume" class="btn">Resume</a>
+			<div class="picture">
+				<img src="/img/mypicture.png" width="250px" style="border: 3px solid rgb(69, 201, 69);" />
+			</div>
+		</div>
+	</section>
 
-        </section>
+	<!---about--->
+	<section class="about" id="about">
+		<div class="about-img">
+			<img src="img/about.gif">
+		</div>
 
-        <!--==================== SKILLS ====================-->
-        <section class="skills section" id="skills">
-
-        </section>
-
-        <!--==================== QUALIFICATION ====================-->
-        <section class="qualification section">
-
-        </section>
-
-        <!--==================== SERVICES ====================-->
-        <section class="services section" id="services">
-
-        </section>
-
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-
-        </section>
-
-        <!--==================== PROJECT IN MIND ====================-->
-        <section class="project section">
-
-        </section>
-
-        <!--==================== TESTIMONIAL ====================-->
-        <section class="testimonial section">
-
-        </section>
-
-        <!--==================== CONTACT ME ====================-->
-        <section class="contact section" id="contact">
-
-        </section>
-    </main>
-
-    <!--==================== FOOTER ====================-->
-    <footer class="footer">
-
-    </footer>
-
-    <!--==================== SCROLL TOP ====================-->
+		<div class="about-text">
+			<h2>About Me</h2>
+			<h4>Hi, I'm Here To Deploy myself as web Developer</h4>
+			<p>Creative thinker to achieve modern business requirements
+				using technical solutions. Ability to develop production-ready code using HTML, CSS, Javascript and
+				React with impressive user experience.</p>
+			<div class="about-gri">
+				<div class="about-in">
 
 
-    <!--==================== SWIPER JS ====================-->
-    <script src=""></script>
 
-    <!--==================== MAIN JS ====================-->
-    <script src="assets/js/main.js"></script>
+
+					<h5>1. Adaptability </h5>
+				</div>
+
+				<div class="about-in">
+					<h5>2. Teamwork</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>3. Problem-solving</h5>
+				</div>
+
+				<div class="about-in">
+					<h5>4. Creativity</h5>
+				</div>
+
+			</div>
+			<a href="#contact" class="btn">Contact Me</a>
+		</div>
+	</section>
+
+	<!---services--->
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2>My Skills</h2>
+			<h4>Better Design, Better Expericences</h4>
+		</div>
+
+		<div class="services-content">
+			<div class="box">
+				<img src="img/html-5.png">
+
+			</div>
+
+			<div class="box">
+				<img src="img/css3.png">
+
+			</div>
+
+			<div class="box">
+				<img src="img/javascript.png">
+
+			</div>
+			<div class="box">
+				<img src="img/react.png" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/git.png">
+
+			</div>
+			<div class="box">
+				<img src="img/github (1).png" width="90px">
+
+			</div>
+			<div class="box">
+				<img src="img/typescript.png">
+
+			</div>
+			<div class="box">
+				<img src="img/redux.png">
+
+			</div>
+			<div class="box">
+				<img src="img/npm.png">
+
+			</div>
+			<div class="box">
+				<img src="img/storybook.png" width="90px">
+
+			</div>
+
+		</div>
+	</section>
+
+	<!---portfolio--->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<h2>My Project</h2>
+			<h4>Some Of My Distinguished Works</h4>
+		</div>
+
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="img/blue fly.gif">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Group Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a href="https://snazzy-blini-1ddf84.netlify.app" style="color:white">BlueFly Website
+						Clone</a>&nbsp;
+					<a href="https://snazzy-blini-1ddf84.netlify.app" style="color:white"><i
+							class='bx bxl-netlify'></i></a>
+					<a href="https://github.com/Anwar7411/direful-order-8525" style="color:white"><i
+							class='bx bxl-github'></i></a>
+				</h3>
+				<p class="site-description">E-commerce website where users can buy products such as clothing, shoes, handbags, watches etc.</p>
+				<p><span style="color:rgb(69, 201, 69)" class="tech"> Tech-Stack :</span> HTML | CSS | JavaScript</p>
+			</div>
+
+			<div class="row">
+				<img src="img/ezgif.com-gif-maker.gif" width="384px" height="216px">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Individual Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a href="https://voyageguide.netlify.app" style="color:white">Trip Advisor Website Clone</a> &nbsp;
+					<a href="https://voyageguide.netlify.app" style="color:white"><i class='bx bxl-netlify'></i></a>
+					<a href="https://github.com/Abhi11sep/confused-sand-1770/tree/main/tripadvisor"
+						style="color:white"><i class='bx bxl-github'></i></a>
+				</h3>
+
+				<p class="site-description">The website provides the places for the searched city and allows them to bookmark for further reference. </p>
+				<p><span style="color:rgb(69, 201, 69)" class="tech"> Tech-Stack :</span> HTML | CSS | JavaScript | Chakra UI | React</p>
+			</div>
+
+			<div class="row">
+				<img src="img/my net diary.gif">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>Individual Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a href="https://celebrated-rabanadas-429a49.netlify.app" style="color:white">MyNetDiary Website
+						Clone</a>&nbsp;
+					<a href="https://celebrated-rabanadas-429a49.netlify.app" style="color:white"><i
+							class='bx bxl-netlify'></i></a>
+					<a href="https://github.com/Abhi11sep/screeching-egg-574" style="color:white"><i
+							class='bx bxl-github'></i></a>
+				</h3>
+           
+				<p class="site-description">Fitness Website which suggest perfect plans to the users according to their requirements</p>
+				<p><span style="color:rgb(69, 201, 69)" class="tech"> Tech-Stack :</span>HTML | CSS </p>
+			</div>
+
+			<div class="row">
+				<img src="img/my net diary.gif">
+				<div class="main-row">
+					<div class="row-text">
+						<h6>upcoming Project</h6>
+					</div>
+					<div class="row-icon">
+						<i class='bx bx-heart'></i>
+					</div>
+				</div>
+				<h3><a href="https://celebrated-rabanadas-429a49.netlify.app" style="color:white">MyNetDiary Website
+						Clone</a> &nbsp;
+					<a href="https://celebrated-rabanadas-429a49.netlify.app" style="color:white"><i
+							class='bx bxl-netlify'></i></a>
+					<a href="https://voyageguide.netlify.app" style="color:white"><i class='bx bxl-github'></i></a>
+				</h3>
+				<p class="site-description">under construction....</p>
+			</div>
+
+		</div>
+	</section>
+	<section>
+		<div class="main-text">
+			<h2>Github Stats</h2>
+			<h4>Data Never Lies</h4>
+		</div>
+		<div class="stat-main">
+		<span class="stat-section">&nbsp;<img class="stats"
+				src="https://github-readme-streak-stats.herokuapp.com/?user=abhi11sep&show_icons=true&theme=dark"
+				alt="abhi11sep" /></span>
+
+				<span class="stat-section">&nbsp;<img class="stats"
+					src="https://github-readme-stats.vercel.app/api?username=abhi11sep&show_icons=true&theme=dark"
+					alt="abhi11sep" /></span>	
+				</div>
+		<div class="calender-section">
+			<script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+			</script>
+
+			<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+			<link rel="stylesheet"
+				href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
+
+			<!-- Prepare a container for your calendar. -->
+			<div class="calendar">
+				<!-- Loading stuff -->
+				Loading the data just for you.
+			</div>
+
+			<script>
+				GitHubCalendar(".calendar", "Abhi11sep");
+
+				// or enable responsive functionality:
+				GitHubCalendar(".calendar", "Abhi11sep", { responsive: true });
+
+				// Use a proxy
+				GitHubCalendar(".calendar", "Abhi11sep", {
+					proxy(username) {
+						return fetch(`https://your-proxy.com/github?user=${username}`)
+					}
+				}).then(r => r.text())
+			</script>
+		</div>
+	</section>
+
+	<!---contact--->
+	<section class="contact" id="contact">
+		<div class="contact-text">
+			<h2>Contact Me</h2>
+			<h4>Ready to start work with you</h4>
+			<p>It would be a great experience to work with me as a Personal,
+				then why wait, Let's start Today!</p>
+			<div class="contact-list">
+				<li><a href="#">Lucknow - Uttar Pradesh</a></li>
+				<li><a href="#">abhi.rocks.11.9.1997@gmail.com</a></li>
+				<li><a href="#">8090634308</a></li>
+			</div>
+			<div class="contact-icons">
+				<a href="https://www.linkedin.com/in/abhishek-singh-914628149/"><i class='bx bxl-linkedin'></i></a>
+
+				<a href="https://github.com/Abhi11sep"><i class='bx bxl-github'></i></a>
+
+			</div>
+		</div>
+
+		<div class="contact-form">
+			<img src="/img/8d4290_87b69acf4d9b4865b64628353845ec75_mv2.gif" width="500px" />
+			<!-- <form action="">
+				<input type="" placeholder="Enter Your Name" required>
+				<input type="email" placeholder="Enter Your Email" required>
+				<input type="" placeholder="Enter Your Subject">
+				<textarea name="" id="" cols="40" rows="10" placeholder="Enter Your Message" required></textarea>
+				<input type="submit" value="Submit" class="send">
+			</form> -->
+		</div>
+	</section>
+
+
+
+	<!---scroll-top--->
+	<!-- <a href="#" class="top"><i class='bx bx-up-arrow-alt'></i></a> -->
+
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+	<!---custom js link--->
+	<script type="text/javascript" src="js/script.js"></script>
+
 </body>
 
 </html>
