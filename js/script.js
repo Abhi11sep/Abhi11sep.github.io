@@ -1,7 +1,13 @@
 const header = document.querySelector("header");
 
-window.addEventListener ("scroll", function() {
-	header.classList.toggle ("sticky", window.scrollY >0);
+import './commands';
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+	return false;
+});
+
+window.addEventListener("scroll", function () {
+	header.classList.toggle("sticky", window.scrollY > 0);
 });
 
 let menu = document.querySelector('#menu-icon');
@@ -17,7 +23,7 @@ window.onscroll = () => {
 	navbar.classList.remove('active');
 };
 
-const sr = ScrollReveal ({
+const sr = ScrollReveal({
 	distance: '25px',
 	duration: 2000,
 	reset: true
