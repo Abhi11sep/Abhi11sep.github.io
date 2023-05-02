@@ -22,8 +22,8 @@
 
 	<!---header--->
 	<header>
-		<a href="#" class="logo"><span style="color: rgb(69, 201, 69);font-size:40px;">Abhishek</span></a>
-		<div class="bx bx-menu" id="menu-icon"></div>
+		<a href="#" class="logo" id="nav-menu"><span style="color: rgb(69, 201, 69);font-size:40px;">Abhishek</span></a>
+		<div class="bx bx-menu" id="nav-menu" id="menu-icon"></div>
 
 		<ul class="navbar" id="nav-menu">
 			<li><a class="nav-link" class="home" href="#home">Home</a></li>
@@ -65,8 +65,8 @@
 
 		<div class="about-text">
 			<h2>About Me</h2>
-			<h4>Hi, I'm Here To Deploy myself as web Developer</h4>
-			<p>Creative thinker to achieve modern business requirements
+			<h4 id="user-detail-name">Hi, I'm Here To Deploy myself as web Developer</h4>
+			<p id="user-detail-intro">Creative thinker to achieve modern business requirements
 				using technical solutions. Ability to develop production-ready code using HTML, CSS, Javascript and
 				React with impressive user experience.</p>
 			<div class="about-gri">
@@ -169,16 +169,16 @@
 	</section>
 
 	<!---portfolio--->
-	<section class="portfolio" id="portfolio" id="projects">
-		<div class="main-text">
+	<section class="portfolio" id="portfolio" id="projects" class="project-card">
+		<div class="main-text" class="project-card">
 			<h2>My Project</h2>
 			<h4>Some Of My Distinguished Works</h4>
 		</div>
 
-		<div class="portfolio-content">
+		<div class="portfolio-content" class="project-card">
 			<div class="row" class="project-card">
 				<img src="img/blue fly.gif">
-				<div class="main-row">
+				<div class="main-row" class="project-card">
 					<div class="row-text">
 						<h6>Group Project</h6>
 					</div>
@@ -205,8 +205,8 @@
 
 			<div class="row" class="project-card">
 				<img src="img/ezgif.com-gif-maker.gif" width="384px" height="216px">
-				<div class="main-row">
-					<div class="row-text">
+				<div class="main-row" class="project-card">
+					<div class="row-text" class="project-card">
 						<h6>Individual Project</h6>
 					</div>
 					<div class="row-icon">
@@ -233,8 +233,8 @@
 
 			<div class="row" class="project-card">
 				<img src="img/my net diary.gif">
-				<div class="main-row">
-					<div class="row-text">
+				<div class="main-row" class="project-card">
+					<div class="row-text" class="project-card">
 						<h6>Individual Project</h6>
 					</div>
 					<div class="row-icon">
@@ -261,8 +261,8 @@
 
 			<div class="row" class="project-card">
 				<img src="img/awake.gif">
-				<div class="main-row">
-					<div class="row-text">
+				<div class="main-row" class="project-card">
+					<div class="row-text" class="project-card">
 						<h6>Group Project</h6>
 					</div>
 					<div class="row-icon">
@@ -294,11 +294,11 @@
 			<h4>Data Never Lies</h4>
 		</div>
 		<div class="stat-main">
-			<span class="stat-section">&nbsp;<img class="stats"
+			<span id="github-streak-stats" id="github-stats-card" class="stat-section">&nbsp;<img class="stats"
 					src="https://github-readme-streak-stats.herokuapp.com/?user=abhi11sep&show_icons=true&theme=dark"
 					alt="abhi11sep" /></span>
 
-			<span class="stat-section">&nbsp;<img class="stats"
+			<span id="github-streak-stats" id="github-stats-card" class="stat-section">&nbsp;<img class="stats"
 					src="https://github-readme-stats.vercel.app/api?username=abhi11sep&show_icons=true&theme=dark"
 					alt="abhi11sep" /></span>
 		</div>
