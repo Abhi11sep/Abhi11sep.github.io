@@ -1,10 +1,5 @@
 const header = document.querySelector("header");
 
-import './commands';
-
-Cypress.on('uncaught:exception', (err, runnable) => {
-	return false;
-});
 
 window.addEventListener("scroll", function () {
 	header.classList.toggle("sticky", window.scrollY > 0);
