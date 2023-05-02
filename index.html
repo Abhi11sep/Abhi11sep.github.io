@@ -26,13 +26,14 @@
 		<div class="bx bx-menu" id="menu-icon"></div>
 
 		<ul class="navbar" id="nav-menu">
-			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About Me</a></li>
-			<li><a href="#services">Skill</a></li>
-			<li><a href="#portfolio">Project</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a class="nav-link" class="home" href="#home">Home</a></li>
+			<li><a class="nav-link" class="about" href="#about">About Me</a></li>
+			<li><a class="nav-link" class="skills" href="#services">Skill</a></li>
+			<li><a class="nav-link" class="projects" href="#portfolio">Project</a></li>
+			<li><a class="nav-link" class="contact" href="#contact">Contact</a></li>
 			<!-- <li><button class="btnResume">Resume</button></li> -->
-			<li><button class="btnResume"><a href="/img//Abhishek-Singh-Resume (2).pdf" target="_blank"
+			<li><button id="resume-button-1" class="nav-link" class="resume" class="btnResume"><a
+						href="/img//Abhishek-Singh-Resume (2).pdf" target="_blank"
 						onclick="window.open('https://drive.google.com/file/d/1KtcFdg0Zcu6nqk68Ic9WuHMfqZq2gffu/view?usp=share_link');"
 						download="Abhishek-Singh-Resume">Resume</a></button> </li>
 		</ul>
@@ -46,7 +47,7 @@
 			<h3>Full Stack Web Developer</h3>
 			<p>Creative thinker to achieve modern business requirements using technical solutions. Ability to develop
 				production-ready code using HTML, CSS, Javascript and React with impressive user experience.</p>
-			<a href="/img//Abhishek-Singh-Resume (2).pdf" target="_blank"
+			<a id="resume-link-2" href="/img//Abhishek-Singh-Resume (2).pdf" target="_blank"
 				onclick="window.open('https://drive.google.com/file/d/1KtcFdg0Zcu6nqk68Ic9WuHMfqZq2gffu/view?usp=share_link');"
 				download="Abhishek-Singh-Resume" class="btn">Resume</a>
 			<div class="picture">
@@ -109,7 +110,7 @@
 
 			<div class="box">
 				<img class="skills-card-img" src="img/css3.png">
-            <h4 class="skills-card-name">CSS</h4>
+				<h4 class="skills-card-name">CSS</h4>
 			</div>
 
 			<div class="box">
@@ -310,7 +311,7 @@
 				href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
 			<!-- Prepare a container for your calendar. -->
-			<div class="calendar">
+			<div class="calendar" class="react-activity-calendar">
 				<!-- Loading stuff -->
 				Loading the data just for you.
 			</div>
@@ -344,7 +345,8 @@
 				<li><a id="contact-phone" href="#">8090634308</a></li>
 			</div>
 			<div class="contact-icons">
-				<a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek-singh-914628149/"><i class='bx bxl-linkedin'></i></a>
+				<a id="contact-linkedin" href="https://www.linkedin.com/in/abhishek-singh-914628149/"><i
+						class='bx bxl-linkedin'></i></a>
 
 				<a id="contact-github" href="https://github.com/Abhi11sep"><i class='bx bxl-github'></i></a>
 
